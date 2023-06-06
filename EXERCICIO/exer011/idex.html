@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica </h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" 
+        type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+      <h1>Reproduzido audio</h1>
+      <P>Vamos aprender a Reproduzido áudio em HTML5</P>
+      
+      <audio src="midia/Projota   Ela Só Quer Paz (Ao Vivo.mp3" controls></audio>
+
+      <audio preload="auto" autoplay controls loop>
+            <source src="midia/Projota   Ela Só Quer Paz (Ao Vivo.mp3" type="audio/mpeg">
+            <source src="midia/Projota   Ela Só Quer Paz (Ao Vivo.ogg" type="audio/ogg">
+            <source src="midia/Projota   Ela Só Quer Paz (Ao Vivo.wav" type="audio/wav">
+            <p>Infelismente seu navegador não consegue reproduzir áudio.<a href="midia/Projota   Ela Só Quer Paz (Ao Vivo.mp3">Clique aqui para baixar o aqrquivo MP3</a></p>
+      </audio>
+</body>
+</html>
